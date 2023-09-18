@@ -10,7 +10,7 @@ import "@testing-library/jest-dom";
 import { vitest } from "vitest";
 import { BrowserRouter } from "react-router-dom";
 import WorkoutCalendar from "../reactComponents/elements/calendar";
-import { RenderWorkoutDetails } from "/Users/adamvonbismarck/Desktop/cs320/cs32-Final-Project/front/src/reactComponents/elements/workoutDetails";
+import { RenderWorkoutDetails } from "../reactComponents/elements/workoutDetails";
 
 test("renders the LoggedInMenu component", () => {
   const { getByLabelText } = render(
